@@ -47,8 +47,8 @@ Now 9/10 years later Minecraft is calling again. I saw that the maker of MemoryS
 - **/tpst help** - Help for help.
 - **/tpst discovered** - Lists all **your** discovered TeleportStones.
 - **/tpst tp <name\>** - Teleport yourself to specified TeleportStone. (You have to be close to another TeleportStone) (Can be done via GUI.)
-- **/tpst favorite <nameTeleportStone\>** Add/remove TeleportStone to list of personal favorites.
-- **/tpst home <nameTeleportStone\>** Set/unset TeleportStone as home.
+- **/tpst favorite <nameTeleportStone\>** Add/remove TeleportStone to list of personal favorites. (Can be done via GUI.)
+- **/tpst home <nameTeleportStone\>** Set/unset TeleportStone as home. (Can be done via GUI.)
 - **/tpst version** - Shows version of plugin.
 
 ## Admin Commands
