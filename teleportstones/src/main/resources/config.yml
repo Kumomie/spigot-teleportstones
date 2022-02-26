@@ -1,0 +1,48 @@
+# For more information: ...
+
+# Should TeleportStone Plugin be enabled ?
+# Possible Values: true / false
+enablePlugin: true
+
+# Should the plugin check permissions ?
+# If this option is disabled, everybody can delete, create TeleportStones, etc.
+# (Everybody can use every feature.)
+# Possible Values: true / false
+enablePermissions: false
+
+# Keyword that identifies a sign as a TeleportStone sign.
+# Possible Values: String (aka. Text) (Should fit on the first line of a sign.)
+keyword: "TeleportStone"
+
+# Select what default TeleportStones should be enabled.
+# Possible Values:
+#   - ONE_STONE_TO_RULE_THEM_ALL
+#   - SIMPLE
+#   - NORMAL
+#   - ADVANCED
+#   - DISABLE
+defaultTeleportStones: NORMAL
+
+# Minimal name length of a TeleportStone.
+# Should not be longer then 2 lines of a sign.
+minimalTeleportStoneNameLength: 3
+
+# Select what method to use for TeleportStone protection
+# Possible Values:
+#   - INTERN
+#   - 
+teleportStoneProtectMethod: INTERN
+
+# Select how often data should be autosafed.
+# Value represents hours. So 3.0 is every 3 hours 
+# or 3.5 is every 3 hours and 30 minutes.
+# Possible values:
+#   - Any positive decimal number is excepted. (Do not use 0 )
+#   - -1 (disable autosafe)
+autoSafeIntervall: 3.0
+
+# Should tab completion be enabled?
+# Possible values: true/false
+enableTabCompletion: true
+
+

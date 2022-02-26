@@ -1,0 +1,7 @@
+teleportstone.command.favorite 
+teleportstone.command.discovered
+teleportstone.command.help
+teleportstone.command.home
+teleportstone.command.teleport
+teleportstone.feature.discover
+teleportstone.feature.teleport

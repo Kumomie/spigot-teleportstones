@@ -1,0 +1,11 @@
+scopes:
+  - ==: kumomi.teleportstones.build.structure.Scope
+    scopeName: "Regional"
+    reachableScopes: 
+      - "Regional"
+      - "Global"
+  - ==: kumomi.teleportstones.build.structure.Scope
+    scopeName: "Global"
+    reachableScopes: 
+      - "Global"
+      - "Regional"

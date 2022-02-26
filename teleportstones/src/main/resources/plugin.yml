@@ -1,0 +1,125 @@
+main: kumomi.teleportstones.App
+name: TeleportStones
+version: "1.0 (Beta)"
+description: This plugins introduces TeleportStones into your server. :)
+api-version: 1.16
+api: "1.16"
+author: kumomi
+
+commands:
+  tpst:
+    description: Commands of TeleportStone Plugin.
+    usage: /<command> <subcommand | help> [arguments]
+    aliases: [ts, teleportstone, teleportStone]
+
+permissions:
+
+  # # Predefined group permissions
+  # teleportstone.groups.player:
+  #   description: This predefined permission group would be suited for a normal player.
+  #   children:
+  #     teleportstone.command.discovered: {true}
+  #     teleportstone.command.favorite: {true}
+  #     teleportstone.command.help: {true}
+  #     teleportstone.command.home: {true}
+  #     teleportstone.command.teleport: {true}
+  #     teleportstone.feature.discover: {true}
+  #     teleportstone.feature.teleport: {true}
+
+  # teleportstone.groups.trustedplayer:
+  #   description: This predefined permission group would be suited for a trusted player.
+  #   children:
+  #     teleportstone.groups.player: {true}
+  #     teleportstone.command.blueprints: {true}
+  #     teleportstone.command.scopes: {true}
+  #     teleportstone.command.version: {true}
+  #     teleportstone.feature.request: {true}
+
+  # teleportstone.groups.trustedjudge:
+  #   description: This predefined permission group would be suited for a trusted players that are allowed to grand requests.
+  #   children:
+  #     teleportstone.groups.trustedplayer: {true}
+  #     teleportstone.feature.request.judge: {true}
+
+  # teleportstone.groups.moderator:
+  #   description: This predefined permission group would be suited for moderators.
+  #   children:
+  #     teleportstone.groups.trustedjudge: {true}
+  #     teleportstone.command.destroy: {true}
+  #     teleportstone.command.delete: {true}
+  #     teleportstone.command.events: {true}
+  #     teleportstone.command.manualdiscover: {true}
+  #     teleportstone.command.list: {true}
+  #     teleportstone.command.nearest: {true}
+  #     teleportstone.command.distance: {true}
+  #     teleportstone.command.players: {true}
+  #     teleportstone.command.unregister: {true}
+  #     teleportstone.command.undiscover: {true}
+  #     teleportstone.feature.create: {true}
+  #     teleportstone.feature.break: {true}
+
+  # Command Permissions
+  teleportstone.command:
+    description: Give access to all TeleportStone Plugin commands.
+    children:
+      teleportstone.command.blueprints:
+        description: Give access to /tpst blueprints command.
+      teleportstone.command.destroy:
+        description: Give access to /tpst destroy command.
+      teleportstone.command.delete:
+        description: Give access to /tpst delete command.
+      teleportstone.command.discovered:
+        description: Give access to /tpst discovered command.
+      teleportstone.command.distance:
+        description: Give access to /tpst distance command.
+      teleportstone.command.events:
+        description: Give access to /tpst events command.
+      teleportstone.command.favorite:
+        description: Give access to /tpst favorite command.
+      teleportstone.command.help:
+        description: Give access to /tpst help command.
+      teleportstone.command.home:
+        description: Give access to /tpst home command.
+      teleportstone.command.list:
+        description: Give access to /tpst list command.
+      teleportstone.command.manualdiscover:
+        description: Give access to /tpst manualdiscover command.
+      teleportstone.command.nearest:
+        description: Give access to /tpst nearest command.
+      teleportstone.command.players:
+        description: Give access to /tpst players command.
+      teleportstone.command.scopes:
+        description: Give access to /tpst scopes command.
+      teleportstone.command.tp:
+        description: Give access to /tpst tp command.
+      teleportstone.command.undiscover:
+        description: Give access to /tpst undiscover command.
+      teleportstone.command.unregister:
+        description: Give access to /tpst unregisterr command.
+      teleportstone.command.version:
+        description: Give access to /tpst version command.
+      teleportstone.command.request:
+        description: Give access to /tpst request command.
+
+ 
+  # Feature Permission
+  teleportstone.feature:
+    description: Give access to all TeleportStone Plugin features.
+    children:
+      teleportstone.feature.create:
+        description: Give permission to build TeleportStones.
+      teleportstone.feature.request:
+        description: Allows players to use the request feature.
+      teleportstone.feature.discover:
+        description: Allows players to discover TeleportStones.
+      teleportstone.feature.teleportgui:
+        description: Allows players to open the TeleportGUI.
+      teleportstone.feature.break:
+        description: Allows players to break TeleportStones (will result in a delete).
+
+
+  
+
+
+
+      

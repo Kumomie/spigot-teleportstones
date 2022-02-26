@@ -1,0 +1,641 @@
+blueprints:
+  - ==: kumomi.teleportstones.build.structure.Blueprint
+    id: "Global"
+    scope: "Global"
+    isWorldBound: false
+    range:
+    offsetBlocks:
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 0
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: -1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - DIAMOND_BLOCK
+        x: -1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - DIAMOND_BLOCK
+        x: 1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - DIAMOND_BLOCK
+        x: -1
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - DIAMOND_BLOCK
+        x: 1
+        y: -2
+        z: 1
+    signMaterials:
+      - OAK_WALL_SIGN
+  - ==: kumomi.teleportstones.build.structure.Blueprint
+    id: "Global+"
+    scope: "Global+"
+    isWorldBound: false
+    range:
+    offsetBlocks:
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CRYING_OBSIDIAN
+        x: 0
+        y: 1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CRYING_OBSIDIAN
+        x: 0
+        y: 0
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CRYING_OBSIDIAN
+        x: 0
+        y: -1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - DIAMOND_BLOCK
+        x: -1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - DIAMOND_BLOCK
+        x: 1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - DIAMOND_BLOCK
+        x: -1
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - DIAMOND_BLOCK
+        x: 1
+        y: -2
+        z: 1
+    signMaterials:
+      - OAK_WALL_SIGN
+  - ==: kumomi.teleportstones.build.structure.Blueprint
+    id: "Regional"
+    scope: "Regional"
+    isWorldBound: true
+    range:
+    offsetBlocks:
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 0
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: -1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - GOLD_BLOCK
+        x: -1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - GOLD_BLOCK
+        x: 1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - GOLD_BLOCK
+        x: -1
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - GOLD_BLOCK
+        x: 1
+        y: -2
+        z: 1
+    signMaterials:
+      - OAK_WALL_SIGN
+  - ==: kumomi.teleportstones.build.structure.Blueprint
+    id: "Regional+"
+    scope: "Regional+"
+    isWorldBound: true
+    range:
+    offsetBlocks:
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CRYING_OBSIDIAN
+        x: 0
+        y: 1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CRYING_OBSIDIAN
+        x: 0
+        y: 0
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CRYING_OBSIDIAN
+        x: 0
+        y: -1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - GOLD_BLOCK
+        x: -1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - GOLD_BLOCK
+        x: 1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - GOLD_BLOCK
+        x: -1
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - GOLD_BLOCK
+        x: 1
+        y: -2
+        z: 1
+    signMaterials:
+      - OAK_WALL_SIGN
+  - ==: kumomi.teleportstones.build.structure.Blueprint
+    id: "Local500"
+    scope: "Local"
+    isWorldBound: true
+    range: 500
+    offsetBlocks:
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 0
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: -1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - COBBLESTONE
+        x: -1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - COBBLESTONE
+        x: 1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - COBBLESTONE
+        x: -1
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - COBBLESTONE
+        x: 1
+        y: -2
+        z: 1
+    signMaterials:
+      - OAK_WALL_SIGN
+  - ==: kumomi.teleportstones.build.structure.Blueprint
+    id: "Local1200"
+    scope: "Local"
+    isWorldBound: true
+    range: 1200
+    offsetBlocks:
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 0
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: -1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 1
+    signMaterials:
+      - OAK_WALL_SIGN
+  - ==: kumomi.teleportstones.build.structure.Blueprint
+    id: "Local3000"
+    scope: "Local"
+    isWorldBound: true
+    range: 3000
+    offsetBlocks:
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 0
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: -1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - SMOOTH_STONE
+        x: -1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - SMOOTH_STONE
+        x: 1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - SMOOTH_STONE
+        x: -1
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - SMOOTH_STONE
+        x: 1
+        y: -2
+        z: 1
+    signMaterials:
+      - OAK_WALL_SIGN
+  - ==: kumomi.teleportstones.build.structure.Blueprint
+    id: "Local6700"
+    scope: "Local"
+    isWorldBound: true
+    range: 6700
+    offsetBlocks:
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: 0
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - OBSIDIAN
+        x: 0
+        y: -1
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CHISELED_STONE_BRICKS
+        x: -1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CHISELED_STONE_BRICKS
+        x: 1
+        y: -2
+        z: -1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: -1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 1
+        y: -2
+        z: 0
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CHISELED_STONE_BRICKS
+        x: -1
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - STONE
+        x: 0
+        y: -2
+        z: 1
+      - ==: kumomi.teleportstones.build.structure.OffsetBlock
+        materials:
+          - CHISELED_STONE_BRICKS
+        x: 1
+        y: -2
+        z: 1
+    signMaterials:
+      - OAK_WALL_SIGN
