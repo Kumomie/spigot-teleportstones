@@ -45,25 +45,24 @@ Now 9/10 years later Minecraft is calling again. I saw that the maker of MemoryS
 
 # Commands
 - **/tpst help** - Help for help.
+- **/tpst discovered** - Lists all **your** discovered TeleportStones.
+- **/tpst tp <name\>** - Teleport yourself to specified TeleportStone. (You have to be close to another TeleportStone) (Can be done via GUI.)
+- **/tpst favorite <nameTeleportStone\>** Add/remove TeleportStone to list of personal favorites.
+- **/tpst home <nameTeleportStone\>** Set/unset TeleportStone as home.
+- **/tpst version** - Shows version of plugin.
+
+## Admin Commands
 - **/tpst list** - Lists all existing TeleportStones.
 - **/tpst players** - Lists all players, that have used the plugin.
-- **/tpst discovered** - Lists all your discovered TeleportStones.
 - **/tpst nearest** - Shows the nearest TeleportStone.
 - **/tpst distance <name\>** - Calculates distance to a TeleportStone.
-- **/tpst tp <name\>** - Teleport yourself to specified TeleportStone. (You have to be close to another TeleportStone)
 - **/tpst events** - Shows noteworthy events of the plugin. (Destroy, Discover, Request, Create, Delete, Teleport, Info, Error)
-- **/tpst version** - Version of TeleportStone Plugin.
- **/tpst delete <name\>** - Delete TeleportStone.
-- **/tpst destroy <name\>** -Delete TeleportStone and destroy all of its blocks.
-- **/tpst unregister <username\>** - Removes a player and his discovered TeleportStones from the register.
-- **/tpst undiscover <username\> <nameTeleportStone\>** - Removes specified discovered TeleportStone from a the list of discovered TeleportStones of a player.
-- **/tpst manualdiscover <username\> <nameTeleportStone\>** - Add specified TeleportStone
-- 
-- Fügt den angegebenen TeleportStone der Liste entdeckter TeleportStones des angegebenen Nutzers hinzu.
-- **/tpst blueprints** Gibt alle geladenen Baupläne aus.
-- **/tpst scopes** Gibt alle geladenen Scopes aus.
-- **/tpst favorite <nameTeleportStone\>** Entfernt TeleportStone von Favoriten bzw. fügt TeleportStone zu Favoriten hinzu.
-- **/tpst home <nameTeleportStone\>** Bestimmt einen TeleportStone als Home bzw. entfernt einen TeleportStone als Home.
+- **/tpst delete <name\>** - Delete TeleportStone.
+- **/tpst destroy <name\>** - Delete TeleportStone and destroy all of its blocks.
+- **/tpst unregister <username\>** - Undiscovers all TeleportStones of a player and unregisters the player.
+- **/tpst undiscover <username\> <nameTeleportStone\>** - Undiscovers a TeleportStone of a player.
+- **/tpst manualdiscover <username\> <nameTeleportStone\>** - Manually discover a TeleportStone for a player.
+## Builder Commands
 - **/tpst request accept [requestTeleportStoneName]** 
   - Akzeptiert nächste TeleportStone-Anfrage bzw. akzeptiert TeleportStone-Anfrage mit angegebenem Namen.
 - **/tpst request deny [requestTeleportStoneName]** 
@@ -79,25 +78,27 @@ Now 9/10 years later Minecraft is calling again. I saw that the maker of MemoryS
     - Welt
     - Bauplan
     - Nächster TeleportStone
+- **/tpst blueprints** Shows all loaded blueprints.
+- **/tpst scopes** Shows all loaded scopes.
 # Permissions
 
 # Custom TeleportStones (Blueprints and Scopes)
 
 ## Scopes
-Scopes make it possible to put limits to what TeleportStone can reach another TeleportStone. They describe reachability. A TeleportStone has **exactly 1** scope assigned to itself. For this scope is configured, to which other scopes you can teleport from this TeleportStone.
+Scopes make it possible to put limits to what TeleportStone can reach what TeleportStone. A TeleportStone has **exactly 1** scope assigned to itself. For this scope is configured, to which other scopes you can teleport from this TeleportStone.
 
 ***Example*** 
 - There exist two scopes: ***ScopeA***, ***ScopeB***
   - ***ScopeA*** can teleport to TeleportStones with scopes ***ScopeA*** or ***ScopeB***.
-  - ***ScopeB*** can only teleport to TeleportStones with scope ***ScopeB***.
+  - ***ScopeB*** can only teleport to TeleportStones with only scope ***ScopeB***.
   - Here is the table representation:
   
 <center>
 
-| Scope Name | Possible Destinations                       |
-| ---------- | ------------------------------------------- |
-| ScopeA     | ScopeA, ScopeB                              |
-| ScopeB     | ScopeB                                      |
+| Scope Name | Possible Destinations |
+| ---------- | --------------------- |
+| ScopeA     | ScopeA, ScopeB        |
+| ScopeB     | ScopeB                |
 
 </center>
 
