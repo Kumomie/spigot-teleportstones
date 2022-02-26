@@ -23,9 +23,9 @@ TLDR
 - Was not updated for current Minecraft versions.
 - Made this similar plugin.
 
-Some many years back (2012/2013) we had a private Bukkit server for friends and co. Installed on the server was a plugin called [MemoryStone by CmdrDats](https://github.com/CmdrDats/MemoryStone). It provided similar features to this plugin. You could build Structures called MemoryStones and teleport between them and there was a compass mechanic (I forgot what this did). Then there came a time we stopped playing and the server went offline. Some time went by, new Minecraft versions were released and we wanted to play again. But MemoryStones was not updated. So it was not useable anymore back then.
+Some many years back (2012/2013) we had a private Bukkit server for friends and co. Installed on the server was a plugin called [MemoryStone by CmdrDats](https://github.com/CmdrDats/MemoryStone). It provided similar features to this plugin. You could build Structures called MemoryStones and teleport between them and there was a compass mechanic (I forgot what this did). Then there came a time, when we stopped playing and the server went offline. Some time went by, new Minecraft versions were released and we wanted to play again. But MemoryStones was not updated. So it was not useable anymore back then.
 
-Now 9 years later Minecraft is calling again. I saw that the maker of MemoryStones made the last update 13 month back for Spigot 1.15.2, so it was kinda updated in the mean time. Me now can program a little more, just wanted to build this plugin myself. THE END
+Now 9/10 years later Minecraft is calling again. I saw that the maker of MemoryStones made the last update 13 month back for Spigot 1.15.2, so it was kinda updated in the mean time. Me now can program a little more, just wanted to build this plugin myself. THE END
 
 ## Table of Content
 - [SpigotMC Plugin: **TeleportStone** 1.0 (Beta)](#spigotmc-plugin-teleportstone-10-beta)
