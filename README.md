@@ -1,5 +1,5 @@
 # Hi
-Now one year later I upload this spigot plugin. I stopped working on it, because writing documentation is so boring. The plugin works tho. I will clean it up now, add more features and ... write documentation. :/ Lets go.
+Now one year later I upload this spigot plugin. I stopped working on it, because writing documentation is so boring. The plugin works tho. I will now clean it up, add more features and ... write documentation. :/ Lets go.
 
 
 # SpigotMC Plugin: **TeleportStone** 1.0 (Beta)
