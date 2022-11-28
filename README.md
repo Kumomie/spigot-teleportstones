@@ -1,7 +1,3 @@
-# Hi
-Now one year later I upload this spigot plugin. I stopped working on it, because writing documentation is so boring. The plugin works tho. I will now clean it up, add more features and ... write documentation. :/ Lets go.
-
-
 # SpigotMC Plugin: **TeleportStone** 1.0 (Beta)
 TeleportStones can be build in the world and used as quick travel system. Players can just walk up to a TeleportStone, click it, select a destination (another TeleportStone) and teleport. But before you can teleport to or from a TeleportStone, you need to discover it first. (Similar to quick travel in other games, e.g. Zelda:BotW, DarkSouls, etc.) That means, they need to use their feet and search for or randomly discover one. If a player finds a TeleportStone, he/she just needs to click it and it will be added to the players list of personal discovered TeleportStones.
 
